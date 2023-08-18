@@ -386,6 +386,9 @@ table.info-table td {
 	width: 250px;
     font-size: 1.2rem;
     font-weight: bold;
+    text-overflow: ellipsis;
+  	white-space: nowrap;
+  	overflow: hidden;
 }
 
 .content-reservation-title a{
@@ -439,6 +442,9 @@ table.info-table td {
 	width: 250px;
     font-size: 1.2rem;
     font-weight: bold;
+    text-overflow: ellipsis;
+  	white-space: nowrap;
+  	overflow: hidden;
 }
 
 .content-prev-info div {
