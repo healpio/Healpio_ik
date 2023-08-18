@@ -199,7 +199,7 @@ function myPhonenumberValidate(){
 		alert('전화번호가 변경되었습니다.');
 		return true;
 	}else{
-		alert('이메일 또는 인증번호를 확인해주세요.')
+		alert('전화번호 또는 인증번호를 확인해주세요.')
 		resultMsg.innerHTML = '인증번호가 불일치 합니다. 다시 확인해주세요!';
         resultMsg.style.color = 'red';
 		return false;
