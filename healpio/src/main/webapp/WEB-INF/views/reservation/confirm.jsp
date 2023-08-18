@@ -10,50 +10,68 @@
     <title>Insert title here</title>
     <style>
         /* Additional styles specific to this page */
-        #confirmation-container {
-            text-align: center; /* Center the content */
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            max-width: 800px;
-        }
-
-        .confirmation-heading {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .confirmation-button-container {
-            text-align: center; /* Center the buttons */
-            margin-top: 10px;
-        }
-
-        .confirmation-button {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        .confirmation-button:hover {
-            background-color: #555;
-        }
+		#confirmation-container {
+		    text-align: center; 
+		    padding: 40px; /* Increased padding */
+		    background-color: #f9f9f9; /* Lighter background */
+		    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		    margin: 200px auto;
+		    max-width: 800px;
+		    max-height: 800px;
+		    border-radius: 10px; /* Added border-radius */
+		}
+		
+		.confirmation-heading {
+		    font-size: 28px; /* Increased font size */
+		    margin-bottom: 30px; /* Increased margin */
+		    color: #333; /* Dark text color */
+		    font-weight: 600; /* Bold text */
+		}
+		
+		table {
+		    margin: 0 auto;
+		    border-collapse: collapse;
+		    width: 100%; /* Reduced width for some spacing */
+		}
+		
+		th, td {
+		    padding: 15px; /* Increased padding */
+		    text-align: center;
+		    border-bottom: 1px solid #e5e5e5; /* Lighter border color */
+		    font-size: 18px; /* Increased font size */
+		    width: 25%;
+		}
+		
+		th {
+		    background-color: #f1f1f1; /* Light background for headers */
+		    font-weight: bold; /* Bold headers */
+		}
+		
+		.confirmation-button-container {
+		    text-align: center; 
+		    margin-top: 30px; /* Increased margin */
+		}
+		
+		.confirmation-button {
+		    background-color: #007BFF; /* Primary blue color */
+		    color: #fff;
+		    border: none;
+		    padding: 12px 25px; /* Increased padding */
+		    font-size: 18px; /* Increased font size */
+		    cursor: pointer;
+		    margin-top: 10px;
+		    border-radius: 5px; /* Added border-radius */
+		    transition: background-color 0.3s, transform 0.3s; /* Added transition for hover effects */
+		}
+		
+		.confirmation-button:hover {
+		    background-color: #0056b3; /* Darker blue on hover */
+		    transform: translateY(-2px); /* Small upward motion on hover */
+		}
+		
+		.confirmation-button:active {
+		    transform: translateY(0); /* Reset position on active */
+		}
     </style>
 </head>
 <body>
