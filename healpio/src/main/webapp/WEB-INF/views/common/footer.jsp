@@ -73,9 +73,9 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><img src='../resources/images/icon/footer/icon_facebook.png'></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><img src='../resources/images/icon/footer/icon_twitter.png'></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><img src='../resources/images/icon/footer/icon_instagram.png'></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://ko-kr.facebook.com/"><img src='../resources/images/icon/footer/icon_facebook.png'></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://twitter.com/?lang=ko"><img src='../resources/images/icon/footer/icon_twitter.png'></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><img src='../resources/images/icon/footer/icon_instagram.png'></a></li>
     </ul>
   </footer>
 </div>
